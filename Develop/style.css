@@ -72,15 +72,16 @@ textarea{
 
 #calendarentry {
   background-color:#77dd77;
+  border: 1px solid black;
 }
 
 .time-end {
   background-color: aqua;
-  max-height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 20px 0 0 20px;
+  border: 1px solid black;
 }
 
 .save-end {
@@ -89,4 +90,5 @@ textarea{
   align-items: center;
   justify-content: center;
   border-radius: 0 20px 20px 0;
+  border: 1px solid black;
 }
