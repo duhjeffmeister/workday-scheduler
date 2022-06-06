@@ -70,9 +70,8 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-#calendarentry {
-  background-color:#77dd77;
-  border: 1px solid black;
+.calendarEntry {
+  color: black;
 }
 
 .time-end {
@@ -84,11 +83,12 @@ textarea{
   border: 1px solid black;
 }
 
-.save-end {
+.saveBtn {
   background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0 20px 20px 0;
   border: 1px solid black;
+  color: black;
 }
